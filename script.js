@@ -33,3 +33,8 @@ let cars = [
 console.log("First element: " + cars[0])
 console.log("Last element: " + cars[cars.length - 1])
 
+let date = new Date()
+console.log(date.getTime())
+console.log(Date.now())
+console.log(date.getDay())
+
