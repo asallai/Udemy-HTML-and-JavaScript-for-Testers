@@ -23,3 +23,13 @@ const x = (num1, num2) => num1 + num2
 const sum2 = x(5, 7)
 console.info(sum2)
 
+let cars = [
+    "Audi",
+    "Mercedes",
+    "BMW",
+    "Volvo"
+]
+
+console.log("First element: " + cars[0])
+console.log("Last element: " + cars[cars.length - 1])
+
