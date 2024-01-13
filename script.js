@@ -38,3 +38,16 @@ console.log(date.getTime())
 console.log(Date.now())
 console.log(date.getDay())
 
+class Car {
+    constructor(brand) {
+        this.brand = brand
+    }
+
+    start() {
+        console.warn("Engine started!")
+    }
+}
+
+anycar = new Car("Volvo")
+console.log(anycar.brand)
+console.log(anycar.start())
